@@ -1,0 +1,10 @@
+"loginView.Login" = "Login";
+"loginView.Password" = "Password";
+"loginView.SignIn" = "Sign In";
+"loginView.SignUp" = "Sign Up";
+"loginView.CannotLogIn" = "User data are not correct";
+"loginView.CreateUser" = "Create User";
+"loginView.Firstname" = "Firstname";
+"loginView.Lastname" = "Lastname";
+"loginView.PasswordReDo" = "Password confirmation";
+"loginView.BackToSignIn" = "Back to Sign in";

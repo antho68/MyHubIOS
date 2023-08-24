@@ -1,0 +1,19 @@
+[
+	{
+		"id": 1,
+		"userId": "Aba",
+		"password": "2fc051754",
+		"sex": "1",
+		"birthday": "1994-09-03",
+		"firstname": "Anthony",
+		"lastname": "Baumlé",
+		"languageId": "fr",
+		"privateEmail": "baumleanthony@gmail.com",
+		"creationStamp": "2023-04-21T08:42:50.2017555",
+		"creationUser": "SYS",
+		"creationFunction": "SQL",
+		"mutationStamp": "2023-07-13T07:31:02.5808237",
+		"mutationUser": "myHubApp",
+		"mutationFunction": "createUser"
+	}
+]

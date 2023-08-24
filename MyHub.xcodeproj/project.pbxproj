@@ -7,23 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2029070A2A9CC9FD0066EA14 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 202907092A9CC9FD0066EA14 /* menu.json */; };
+		2029070C2A9CCA090066EA14 /* userMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = 2029070B2A9CCA090066EA14 /* userMenu.json */; };
+		2029070E2A9CCB3A0066EA14 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029070D2A9CCB3A0066EA14 /* Menu.swift */; };
+		202907102A9CCB490066EA14 /* UserMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2029070F2A9CCB490066EA14 /* UserMenu.swift */; };
+		204A85F62A9725AB006FA8EA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A85F52A9725AB006FA8EA /* LoginController.swift */; };
+		204A85F92A9744DA006FA8EA /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = 204A85F82A9744DA006FA8EA /* User.json */; };
+		204A85FC2A974537006FA8EA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A85FB2A974537006FA8EA /* User.swift */; };
+		204A86042A974CA6006FA8EA /* MyHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 204A86022A974CA6006FA8EA /* MyHub.xcdatamodeld */; };
+		204A86062A9780A2006FA8EA /* HubError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A86052A9780A2006FA8EA /* HubError.swift */; };
 		20603B4B29DAB6D10040A086 /* MyHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20603B4A29DAB6D10040A086 /* MyHubApp.swift */; };
 		20603B4D29DAB6D10040A086 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20603B4C29DAB6D10040A086 /* Persistence.swift */; };
-		20603B5029DAB6D20040A086 /* MyHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20603B4E29DAB6D20040A086 /* MyHub.xcdatamodeld */; };
 		20603B5229DAB6D20040A086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20603B5129DAB6D20040A086 /* ContentView.swift */; };
 		20603B5429DAB6D30040A086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20603B5329DAB6D30040A086 /* Assets.xcassets */; };
 		20603B5829DAB6D30040A086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20603B5729DAB6D30040A086 /* Preview Assets.xcassets */; };
+		20603B6129DACBA50040A086 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20603B6029DACBA50040A086 /* LoginView.swift */; };
+		20603B6A29DAF6E90040A086 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20603B6C29DAF6E90040A086 /* Localizable.strings */; };
+		206FF20529F83FE2004B17C7 /* MyHubUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206FF20429F83FE2004B17C7 /* MyHubUtils.swift */; };
+		20A0D54429EF257A00E57F2C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A0D54329EF257A00E57F2C /* HomeView.swift */; };
+		20A0D54629EF269E00E57F2C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A0D54529EF269E00E57F2C /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202907092A9CC9FD0066EA14 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		2029070B2A9CCA090066EA14 /* userMenu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userMenu.json; sourceTree = "<group>"; };
+		2029070D2A9CCB3A0066EA14 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2029070F2A9CCB490066EA14 /* UserMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMenu.swift; sourceTree = "<group>"; };
+		204A85F52A9725AB006FA8EA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		204A85F82A9744DA006FA8EA /* User.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
+		204A85FB2A974537006FA8EA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		204A86032A974CA6006FA8EA /* MyHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyHub.xcdatamodel; sourceTree = "<group>"; };
+		204A86052A9780A2006FA8EA /* HubError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubError.swift; sourceTree = "<group>"; };
 		20603B4729DAB6D10040A086 /* MyHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20603B4A29DAB6D10040A086 /* MyHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHubApp.swift; sourceTree = "<group>"; };
 		20603B4C29DAB6D10040A086 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		20603B4F29DAB6D20040A086 /* MyHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyHub.xcdatamodel; sourceTree = "<group>"; };
 		20603B5129DAB6D20040A086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20603B5329DAB6D30040A086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20603B5529DAB6D30040A086 /* MyHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyHub.entitlements; sourceTree = "<group>"; };
 		20603B5729DAB6D30040A086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20603B6029DACBA50040A086 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		20603B6B29DAF6E90040A086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		20603B6E29DAF7760040A086 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		206FF20429F83FE2004B17C7 /* MyHubUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHubUtils.swift; sourceTree = "<group>"; };
+		20A0D54329EF257A00E57F2C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		20A0D54529EF269E00E57F2C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		204A85FA2A974529006FA8EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				204A85FB2A974537006FA8EA /* User.swift */,
+				2029070D2A9CCB3A0066EA14 /* Menu.swift */,
+				2029070F2A9CCB490066EA14 /* UserMenu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		205B9C992A989DE0001D703F /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
 		20603B3E29DAB6D10040A086 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +100,18 @@
 		20603B4929DAB6D10040A086 /* MyHub */ = {
 			isa = PBXGroup;
 			children = (
+				205B9C992A989DE0001D703F /* Rest */,
+				204A85FA2A974529006FA8EA /* Model */,
+				206FF20329F83FCF004B17C7 /* Utils */,
+				20A0D54229EF254000E57F2C /* Controller */,
+				20603B5F29DAB7F40040A086 /* Data */,
+				20603B5E29DAB7490040A086 /* Views */,
 				20603B4A29DAB6D10040A086 /* MyHubApp.swift */,
 				20603B4C29DAB6D10040A086 /* Persistence.swift */,
-				20603B5129DAB6D20040A086 /* ContentView.swift */,
 				20603B5329DAB6D30040A086 /* Assets.xcassets */,
 				20603B5529DAB6D30040A086 /* MyHub.entitlements */,
-				20603B4E29DAB6D20040A086 /* MyHub.xcdatamodeld */,
 				20603B5629DAB6D30040A086 /* Preview Content */,
+				20603B6C29DAF6E90040A086 /* Localizable.strings */,
 			);
 			path = MyHub;
 			sourceTree = "<group>";
@@ -73,6 +122,45 @@
 				20603B5729DAB6D30040A086 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20603B5E29DAB7490040A086 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20603B5129DAB6D20040A086 /* ContentView.swift */,
+				20603B6029DACBA50040A086 /* LoginView.swift */,
+				20A0D54329EF257A00E57F2C /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20603B5F29DAB7F40040A086 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				204A85F82A9744DA006FA8EA /* User.json */,
+				204A86022A974CA6006FA8EA /* MyHub.xcdatamodeld */,
+				202907092A9CC9FD0066EA14 /* menu.json */,
+				2029070B2A9CCA090066EA14 /* userMenu.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		206FF20329F83FCF004B17C7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				206FF20429F83FE2004B17C7 /* MyHubUtils.swift */,
+				204A86052A9780A2006FA8EA /* HubError.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		20A0D54229EF254000E57F2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20A0D54529EF269E00E57F2C /* HomeController.swift */,
+				204A85F52A9725AB006FA8EA /* LoginController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +205,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 20603B3E29DAB6D10040A086;
 			productRefGroup = 20603B4829DAB6D10040A086 /* Products */;
@@ -133,7 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2029070A2A9CC9FD0066EA14 /* menu.json in Resources */,
+				2029070C2A9CCA090066EA14 /* userMenu.json in Resources */,
+				204A85F92A9744DA006FA8EA /* User.json in Resources */,
 				20603B5829DAB6D30040A086 /* Preview Assets.xcassets in Resources */,
+				20603B6A29DAF6E90040A086 /* Localizable.strings in Resources */,
 				20603B5429DAB6D30040A086 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,20 +238,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20603B5029DAB6D20040A086 /* MyHub.xcdatamodeld in Sources */,
+				204A86062A9780A2006FA8EA /* HubError.swift in Sources */,
+				206FF20529F83FE2004B17C7 /* MyHubUtils.swift in Sources */,
 				20603B4B29DAB6D10040A086 /* MyHubApp.swift in Sources */,
+				20A0D54629EF269E00E57F2C /* HomeController.swift in Sources */,
+				204A86042A974CA6006FA8EA /* MyHub.xcdatamodeld in Sources */,
+				204A85F62A9725AB006FA8EA /* LoginController.swift in Sources */,
+				202907102A9CCB490066EA14 /* UserMenu.swift in Sources */,
+				2029070E2A9CCB3A0066EA14 /* Menu.swift in Sources */,
 				20603B5229DAB6D20040A086 /* ContentView.swift in Sources */,
+				204A85FC2A974537006FA8EA /* User.swift in Sources */,
+				20A0D54429EF257A00E57F2C /* HomeView.swift in Sources */,
+				20603B6129DACBA50040A086 /* LoginView.swift in Sources */,
 				20603B4D29DAB6D10040A086 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		20603B6C29DAF6E90040A086 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20603B6B29DAF6E90040A086 /* en */,
+				20603B6E29DAF7760040A086 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		20603B5929DAB6D30040A086 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -217,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -277,6 +393,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -315,6 +432,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -364,12 +482,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		20603B4E29DAB6D20040A086 /* MyHub.xcdatamodeld */ = {
+		204A86022A974CA6006FA8EA /* MyHub.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				20603B4F29DAB6D20040A086 /* MyHub.xcdatamodel */,
+				204A86032A974CA6006FA8EA /* MyHub.xcdatamodel */,
 			);
-			currentVersion = 20603B4F29DAB6D20040A086 /* MyHub.xcdatamodel */;
+			currentVersion = 204A86032A974CA6006FA8EA /* MyHub.xcdatamodel */;
 			path = MyHub.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

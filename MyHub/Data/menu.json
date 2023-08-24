@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"menuId": "ingredientList",
+		"parentMenuId": "",
+		"sequence": 200
+	},
+	{
+		"id": 2,
+		"menuId": "recipeList",
+		"parentMenuId": "",
+		"sequence": 300
+	}
+]

@@ -9,13 +9,19 @@ import CoreData
 
 struct PersistenceController {
     static let shared = PersistenceController()
+	
+	let container: NSPersistentCloudKitContainer
 
     static var preview: PersistenceController = {
-        let result = PersistenceController(inMemory: true)
-        let viewContext = result.container.viewContext
+		
+        let controller = PersistenceController(inMemory: true)
+        let viewContext = controller.container.viewContext
+		
         for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+			let newItem = ActualUser(context: controller.container.viewContext)
+            newItem.userId = "aba"
+			newItem.firstName = "Anthony"
+			newItem.lastName = "Baumlé"
         }
         do {
             try viewContext.save()
@@ -25,10 +31,9 @@ struct PersistenceController {
             let nsError = error as NSError
             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
         }
-        return result
+		
+        return controller
     }()
-
-    let container: NSPersistentCloudKitContainer
 
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "MyHub")
@@ -53,4 +58,16 @@ struct PersistenceController {
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
     }
+	
+	func save() {
+		let context = container.viewContext
+
+		if context.hasChanges {
+			do {
+				try context.save()
+			} catch {
+				// Show some error here
+			}
+		}
+	}
 }

@@ -1,0 +1,10 @@
+"loginView.Login" = "Utilisateur";
+"loginView.Password" = "Mot de passe";
+"loginView.SignIn" = "Se connecter";
+"loginView.SignUp" = "Créer un compte";
+"loginView.CannotLogIn" = "Les données utilisateur ne sont pas correcte";
+"loginView.CreateUser" = "Crée l'utilisateur";
+"loginView.Firstname" = "Prénom";
+"loginView.Lastname" = "Nom";
+"loginView.PasswordReDo" = "Confirmation mot de passe";
+"loginView.BackToSignIn" = "Se connecter";
